@@ -1,2 +1,6 @@
-# Couchbase-with-Spring-Boot-Spring-Data
- couchbase-springboot-multibucket
+# couchbase-springboot-multibucket
+
+~~~
+CREATE PRIMARY INDEX `#primary` ON `user`
+CREATE PRIMARY INDEX `#primary` ON `customer`
+~~~
